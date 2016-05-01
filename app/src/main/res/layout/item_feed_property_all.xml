@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_item_cart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/root_item_feed_padding"
+    app:cardElevation="@dimen/root_item_feed_cardElevetion"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_background"
+        android:padding="@dimen/container_item_empty_padding">
+
+
+        <ImageView
+            android:id="@+id/img_item_feed_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_right_arrow"
+            android:tint="@color/img_item_feed_right_arrow_tint" />
+
+        <TextView
+            android:id="@+id/lbl_item_feed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/img_item_feed_right_arrow"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/lbl_item_feed_title"
+            android:maxLines="2"
+            android:padding="@dimen/lbl_item_feed_title_padding"
+            android:text="@string/lbl_item_feed_title"
+            android:textColor="@color/lbl_item_feed_title_text_color"
+            android:textSize="@dimen/lbl_item_feed_title_text_size"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/img_item_feed_icon"
+            android:layout_width="@dimen/container_item_feed_property_image_width"
+            android:layout_height="@dimen/container_item_feed_property_image_height"
+            android:layout_below="@+id/lbl_item_feed_title"
+            android:layout_marginTop="@dimen/container_item_feed_description_margin_top"
+            android:layout_toLeftOf="@+id/img_item_feed_right_arrow"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_placeholder" />
+
+        <TextView
+            android:id="@+id/lbl_item_feed_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_item_feed_title"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/container_item_feed_description_margin_top"
+            android:layout_toLeftOf="@+id/img_item_feed_icon"
+            android:text="@string/lbl_item_feed_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lbl_item_feed_description_text_size" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

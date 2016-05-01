@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_card_elevation">4dp</dimen>
+    <dimen name="lbl_item_feed_title_text_size">18sp</dimen>
+    <dimen name="root_item_feed_padding">5dp</dimen>
+    <dimen name="img_item_feed_right_arrow_margin">5dp</dimen>
+    <dimen name="lbl_item_feed_title">3dp</dimen>
+    <dimen name="container_item_feed_description_margin_top">5dp</dimen>
+    <dimen name="lbl_item_feed_description_text_size">14sp</dimen>
+    <dimen name="root_item_feed_cardElevetion">2dp</dimen>
+    <dimen name="container_item_empty_padding">5dp</dimen>
+    <dimen name="lbl_item_feed_title_padding">2dp</dimen>
+    <dimen name="container_item_feed_property_image_width">100dp</dimen>
+    <dimen name="container_item_feed_property_image_height">65dp</dimen>
+    <dimen name="img_item_feed_icon_height">120dp</dimen>
+    <dimen name="img_item_feed_icon_padding">5dp</dimen>
+</resources>
